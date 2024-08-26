@@ -13,5 +13,11 @@ public class UserInput {
 		Scanner scan = new Scanner(System.in);
 		String username = scan.nextLine();
 		System.out.println("Your name is "+ username+"!!!");
+		scan.close();
+	}
+	
+	public static void expressionFunc() {
+		double result =(double) 10/3;
+		System.out.println(result);
 	}
 }
