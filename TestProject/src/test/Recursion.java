@@ -2,10 +2,14 @@ package test;
 
 public class Recursion {
 
-    public void hiFunc(int n){
-        if(n == 0){
+    Recursion() {
+        System.out.println("testing");
+    }
+
+    public void hiFunc(int n) {
+        if (n == 0) {
             System.out.println("done");
-        }else{
+        } else {
             n--;
             System.out.println("HI");
             hiFunc(n);
